@@ -1,0 +1,51 @@
+                     WINDOWS 11 PC
+                    Development PC
+                          |
+                       Tailscale
+                          |
+                  HOME NETWORK / LAN
+                          |
+           +--------------+--------------+
+           |              |              |
+           v              v              v
+     ZimaBlade 1     ZimaBlade 2     ZimaBlade 3
+      Controller       Worker 1        Worker 2
+       16 GB           16 GB           16 GB
+      500 GB SSD      500 GB SSD      500 GB SSD
+           |              |              |
+       Ubuntu Server 24.04 LTS on all nodes
+           |              |              |
+         Docker         Docker         Docker
+           |              |              |
+       C++ Scheduler    C++ Worker     C++ Worker
+       Monitoring       Minecraft      Storage
+       Grafana          Game Server    Backups
+           |              |              |
+           +--------------+--------------+
+                          |
+                 Distributed C++ Jobs                     WINDOWS 11 PC
+                    Development PC
+                          |
+                       Tailscale
+                          |
+                  HOME NETWORK / LAN
+                          |
+           +--------------+--------------+
+           |              |              |
+           v              v              v
+     ZimaBlade 1     ZimaBlade 2     ZimaBlade 3
+      Controller       Worker 1        Worker 2
+       16 GB           16 GB           16 GB
+      500 GB SSD      500 GB SSD      500 GB SSD
+           |              |              |
+       Ubuntu Server 24.04 LTS on all nodes
+           |              |              |
+         Docker         Docker         Docker
+           |              |              |
+       C++ Scheduler    C++ Worker     C++ Worker
+       Monitoring       Minecraft      Storage
+       Grafana          Game Server    Backups
+           |              |              |
+           +--------------+--------------+
+                          |
+                 Distributed C++ Jobs
