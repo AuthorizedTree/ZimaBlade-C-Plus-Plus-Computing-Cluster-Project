@@ -1,0 +1,32 @@
+                       WINDOWS 11 PC
+                    Development Machine
+                    Git / GitHub / C++
+                             |
+                             |
+                       TAILSCALE VPN
+                             |
+                             |
+                  +---------------------+
+                  |     CONTROLLER      |
+                  |    ZimaBlade 1      |
+                  |                     |
+                  |    Ubuntu Server    |
+                  |    C++ Controller   |
+                  |    16 GB RAM        |
+                  |    500 GB SSD       |
+                  +---------------------+
+                             |
+                 TCP Communication
+                             |
+                 +-----------+-----------+
+                 |                       |
+                 v                       v
+       +------------------+    +------------------+
+       |     WORKER 1     |    |     WORKER 2     |
+       |    ZimaBlade 2   |    |    ZimaBlade 3   |
+       |                  |    |                  |
+       |   Ubuntu Server  |    |   Ubuntu Server  |
+       |   C++ Worker     |    |   C++ Worker     |
+       |   16 GB RAM      |    |   16 GB RAM      |
+       |   500 GB SSD     |    |   500 GB SSD     |
+       +------------------+    +------------------+
